@@ -31,6 +31,7 @@ var vocMayus = map[rune]struct{}{
 
 // Estadisticas de una palabra
 func PrintEstadistica(palabra string) {
+	panic("PUM!! Esta versión en desarrollo ha explotado. Deberías usar la versión v1.0.0 en tu go.mod")
 	sumas := calcula(palabra)
 	fmt.Printf("La palabra %q contiene:\n", palabra)
 	fmt.Printf("\t - %d mayúsculas\n", sumas[mays])
